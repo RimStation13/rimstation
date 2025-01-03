@@ -32,6 +32,11 @@
 	range = 9
 	mine_range = 3
 
+/obj/projectile/plasma/harmless
+	damage = 0
+	range = 11
+	mine_range = 4
+
 /obj/projectile/plasma/turret
 	//Between normal and advanced for damage, made a beam so not the turret does not destroy glass
 	name = "plasma beam"

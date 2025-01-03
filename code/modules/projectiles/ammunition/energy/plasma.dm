@@ -9,3 +9,9 @@
 	projectile_type = /obj/projectile/plasma/adv
 	delay = 10
 	e_cost = LASER_SHOTS(100, STANDARD_CELL_CHARGE)
+
+/// borg cutter
+/obj/item/ammo_casing/energy/plasma/harmless
+	projectile_type = /obj/projectile/plasma/harmless
+	delay = 7
+	e_cost = LASER_SHOTS(2, STANDARD_CELL_CHARGE)

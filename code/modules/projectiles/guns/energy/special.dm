@@ -184,6 +184,12 @@
 	force = 15
 	ammo_type = list(/obj/item/ammo_casing/energy/plasma/adv)
 
+/obj/item/gun/energy/plasmacutter/borg
+	name = "cyborg plasma cutter"
+	icon_state = "adv_plasmacutter"
+	ammo_type = list(/obj/item/ammo_casing/energy/plasma/harmless)
+	use_cyborg_cell = TRUE
+
 #define AMMO_SELECT_BLUE 1
 #define AMMO_SELECT_ORANGE 2
 

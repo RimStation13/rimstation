@@ -1237,6 +1237,32 @@
 	material = /datum/material/silver
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
+/datum/reagent/tungsten
+	name = "Tungsten"
+	description = "A dense metal with the highest melting point of all elements"
+	reagent_state = SOLID
+	color = "#c4e2c9"
+	taste_description = "metal"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	ph = 7
+
+/datum/reagent/platinum
+	name = "platinum"
+	description = "A dense, precious silvery-white metal, known for its use in jewelry and industrial applications."
+	reagent_state = SOLID
+	color = "#A8A8A8"
+	taste_description = "metal"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/cobalt
+	name = "cobalt"
+	description = "A hard, lustrous, silvery-blue metal."
+	reagent_state = SOLID
+	color = "#0b508f"
+	taste_description = "metal"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	ph = 9
+
 /datum/reagent/uranium
 	name = "Uranium"
 	description = "A jade-green metallic chemical element in the actinide series, weakly radioactive."

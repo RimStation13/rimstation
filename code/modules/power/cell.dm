@@ -68,6 +68,14 @@
 /obj/item/stock_parts/power_store/cell/secborg/empty
 	empty = TRUE
 
+/obj/item/stock_parts/power_store/cell/minerborg
+	name = "miner borg rechargeable D cell"
+	maxcharge = STANDARD_CELL_CHARGE * 0.2
+	custom_materials = list(/datum/material/glass=SMALL_MATERIAL_AMOUNT*0.4)
+
+/obj/item/stock_parts/power_store/cell/secborg/empty
+	empty = TRUE
+
 /obj/item/stock_parts/power_store/cell/mini_egun
 	name = "miniature energy gun power cell"
 	maxcharge = STANDARD_CELL_CHARGE * 0.6
